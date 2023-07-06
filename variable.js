@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var x = 10;
 //alert(x);
 console.log('x value is ', x);
@@ -17,3 +19,7 @@ function test() {
     b3 = true;
 }
 console.log(test());
+console.log("============palindrome prog import============== ");
+var palindromExport_1 = require("./palindromExport");
+console.log((0, palindromExport_1.isPalindrome)('madam'));
+console.log((0, palindromExport_1.isPalindrome)('madan'));

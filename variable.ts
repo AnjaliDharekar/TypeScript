@@ -29,3 +29,11 @@ function test(): boolean {
 }
 
 console.log(test());
+
+console.log(`============palindrome prog import============== `);
+
+
+import {isPalindrome} from './palindromExport';
+
+console.log(isPalindrome('madam'))
+console.log(isPalindrome('madan'))
