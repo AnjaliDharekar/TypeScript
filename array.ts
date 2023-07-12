@@ -7,16 +7,16 @@ console.log(courses[0]);
 
 // hetro 
 
-var cousr2: Array<any> = ['Angular', 123];
+var cousre: Array<any> = ['Angular', 123];
 
-console.log(cousr2);
+console.log(cousre);
 console.log(`=============practice=============`);
 
 
-var course3 : Array<any>= [123,"anju", 555];
-console.log(course3[1]);
+var course : Array<any>= [123,"anju", 555];
+console.log(course[1]);
 
-var arraynew=course3.push(444);
+var arraynew=course.push(444);
 console.log(arraynew);
 console.log(arraynew[2]);
 

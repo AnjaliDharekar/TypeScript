@@ -47,7 +47,7 @@ class Anjali {
 
     }
 } 
-const jack3 =new Anjali ("anjali", " Dharekar")
-const jack4 = new Anjali("Rupali", "Shirale");
+let jack3 =new Anjali ("anjali", " Dharekar")
+let jack4 = new Anjali("Rupali", "Shirale");
 console.log(jack3.fName, jack4.fName);
 

@@ -6,6 +6,8 @@
 
 console.log(`============palindrome prog Export or module============== `);
 
+// import in variable.ts file
+
 export function isPalindrome(str: string): boolean {
     return str === str.split('').reverse().join('');
 }
